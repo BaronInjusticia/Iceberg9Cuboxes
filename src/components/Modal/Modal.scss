@@ -1,0 +1,64 @@
+.modal-content {
+  width: 540px !important;
+  height: 512px;
+  border-radius: 6px;
+  box-shadow: 0 0 20px -5px rgba(55, 51, 49, 0.3);
+  border: 0 !important;
+  .modal-header {
+    border-bottom: 0;
+    .modal-title {
+      width: 100%;
+      height: 48px;
+      font-family: Raleway;
+      font-size: 42px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.14;
+      letter-spacing: normal;
+      text-align: center;
+      color: #373331;
+    }
+    .close {
+      position: absolute;
+      right: 20px;
+    }
+  }
+  .modal-body {
+    .subtitle {
+      p {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+    }
+    form {
+      .form-control {
+        border-top: 0;
+        border-bottom: 1px solid #e3e7f1;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        font-size: 14px;
+        font-weight: normal;
+        color: #acacac;
+        width: 440px;
+        padding-left: 0;
+        margin: auto;
+        margin-bottom: 30px;
+        height: 40px;
+      }
+      button.btn.btn-primary {
+        width: 100%;
+        max-width: 440px;
+        text-align: center;
+        height: 55px;
+        font-size: 16px;
+        background-color: #fc3a52;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+      }
+    }
+  }
+}
